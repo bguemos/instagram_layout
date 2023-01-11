@@ -1,0 +1,339 @@
+html, body{
+    margin: 0px;
+    background-color: #efefef;
+   
+
+}
+
+
+
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.log-in{
+    max-width: 350px;
+    height: 420px;
+    width: 350px;
+    background-color: white;
+    margin-bottom: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    border: 1px solid lightgray;
+    border-radius: 1px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin-top: 10%;
+
+    
+   
+ 
+  
+}
+.insta{
+    width: 300px;
+    height: 100px;
+}
+.input{
+        background-color: whitesmoke;
+        color: black;
+        width: 268px;
+        height: 38px;
+        margin: 0 40px 6px;
+        overflow: hidden;
+        height: 36px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        padding-left: 10px;
+        margin-top: 5px;
+    
+}
+.loginbutton{
+    background-color: rgb(0, 149, 246);
+    opacity: .6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    width: 85%;
+    margin: 8px;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+   
+    
+}
+
+hr{
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    width: 120px;
+    
+
+}
+.or{
+    color: darkgray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.changing-images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+
+
+
+
+
+.phones{
+    height:580px;
+    width: 450px;
+}
+
+.screenshot1{
+    height: 500px;
+    width: 252px;
+    position: absolute;
+    padding-left: 7%;
+    padding-bottom: 2%;
+ 
+    
+}
+.screenshot2{
+    height: 500px;
+    width: 252px;
+    position: absolute;
+   padding-left: 7%;
+   padding-bottom: 2%;
+ 
+   
+}
+   
+  
+
+
+
+
+
+.loginoption{
+    display: flex;
+    align-items: center;
+    
+   
+}
+.fbicon{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    
+}
+
+.fb{
+    color: #385185;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+
+}
+.password{
+ text-decoration: none;
+ color: #00376b;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 12px;
+ padding-top: 10%;
+}
+
+.AfterLog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+
+}
+.signup{
+     
+        background-color: white;
+        border-radius: 1px;
+        border: 1px solid lightgray;
+        width: 350px;
+        height: 65px;
+        right: 100%;
+        margin-top: 150%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        gap: 5px;
+      
+    
+       
+     
+        
+      
+        
+}
+.noaccount{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #262626;
+    size: 14px;
+    margin-left: 15%;
+
+
+
+}
+.signup2{
+    text-decoration: none;
+    color: #0095f6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    size: 14px;
+    
+
+}
+  .type{
+    color: #262626;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+  }
+  .appbuttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 44%;
+    gap: 10px;
+    
+    
+ 
+ 
+   
+  }
+  .getApp{
+    color: #262626;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    margin-left: 50%;
+    
+ 
+
+   
+  }
+  .apple{
+    width:136px;
+    height:40px;
+   
+  }
+  .google{
+    width: 136px;
+    height: 40px;
+    
+  }
+
+
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 15%;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 15%;
+ 
+    
+}
+.link{
+    text-decoration: none;
+    color: darkgray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+   
+}
+
+
+
+@media only screen and (max-width: 820px) {
+    .phones {
+        display: none;
+    }
+
+    .main-content {
+        flex-direction: column;
+        flex-wrap: wrap;
+     
+    }
+    .signup{
+        display: none;
+    }
+    .screenshot1{
+        display: none;
+    }
+    .screenshot2{
+        display: none;
+    }
+  
+}
+
+@media only screen and (max-width: 414px) {
+    .phones {
+        border: none;
+        background-color: transparent;
+    }
+
+    .log-in {
+        border: none;
+        margin: 70px 0 10px 0;
+    }
+
+    .main-content {
+        align-items: baseline;
+        margin-top: 0;
+    }
+
+    .link {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3px 15px;
+        margin-bottom: 0;
+        margin: 0 10px 6px 10px;
+    }
+
+    .getApp {
+        margin: 55px 0;
+    }
+
+
+
+
+}
+@media only screen and(max-width: 820px) {
+    .phones {
+        border: none;
+        background-colour: trasnparent;
+    }
+    
+}
